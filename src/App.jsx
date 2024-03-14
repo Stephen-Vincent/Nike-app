@@ -6,12 +6,13 @@ Services,
 SpecialOffer,
 Subscribe,
 SuperQuality } from './sections/index';
+import Nav from './components/Nav';
 
 const App = () => {
   return (
     <main className='relative'>
-      {/* Nav */}
-      <section className='xl:padding-1 wide:padding-r badding-b'>
+      <Nav />
+      <section className='xl:padding-l wide:padding-r badding-b'>
         <Hero />
       </section>
       <section className='padding'>
